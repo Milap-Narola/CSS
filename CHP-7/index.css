@@ -1,0 +1,91 @@
+body {
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+}
+
+#parent-box {
+    background-color: rgb(143, 0, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    box-shadow: 1px 2px 9px 9px;
+    margin: 10px;
+}
+
+.child-box a {
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+    padding-left: 10px;
+    box-shadow: 2px 2px 1px 2px;
+    border-radius: 2px;
+
+}
+
+.MENU {
+    background-color: rgb(242, 237, 237);
+    box-shadow: 2px 3px 9px 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.FOOD {
+    color: rgb(236, 234, 233);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    height: 490px;
+    border-radius: 3px 2px 2px 2px;
+    background-color: #300943;
+    box-shadow: 2px 2px 9px 2px;
+}
+
+
+.img {
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+}
+
+.img:hover {
+    transform: scale(1);
+}
+
+.MENU h1 {
+    color: white;
+    text-shadow: 1px 1px 1px 1px;
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin: 35px;
+}
+
+.MENU button {
+    color: #ffffff;
+    background: linear-gradient(90deg, rgb(220, 70, 115) 0%, rgb(255, 12, 85) 26%, rgb(246, 126, 21) 98%);
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 8px rgb(247, 185, 0);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+    margin: 10px;
+
+
+
+}
+
+.Owner {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(216, 4, 96) 16%, rgb(1, 86, 70) 59%, rgb(187, 6, 232) 90%);
+    box-shadow: 3px 0px 7px 4px rgb(255, 255, 37);
+    font-size: xx-large;
+
+}
+
+.Owner:hover {
+    transform: scale(4);
+}
