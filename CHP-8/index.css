@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Box1,
+.Box2,
+.Box3,
+.Box4 {
+    display: flex;
+    color: white;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: rgb(180, 22, 41);
+    background: linear-gradient(90deg, rgba(180, 22, 41, 1) 29%, rgba(121, 9, 117, 1) 67%, rgba(255, 0, 104, 1) 100%);
+    transition: transform 0.3s ease-in-out;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.Box:hover {
+    transform-origin: center;
+
+}
+
+.Box1:hover {
+    transform: translate(50px, 50px);
+
+}
+
+.Box2:hover {
+    transform: rotate(45deg);
+}
+
+.Box3:hover {
+    transform: scale(1.2);
+}
+
+.Box4:hover {
+    transform: skew(30deg, 10deg);
+}
