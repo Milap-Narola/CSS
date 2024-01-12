@@ -1,0 +1,18 @@
+.parentbox{
+display: flex;
+border: 2px solid black;
+text-align: center;
+font-size: 30px;
+}
+.box{
+    border: 1px solid cornflowerblue;
+    width: 200px;
+    height: 200px;
+   
+
+}
+.img{
+
+    width:100px;
+    height:100px;
+}

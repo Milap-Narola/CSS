@@ -1,33 +1,26 @@
-body {
-    width: fit-content;
-    height: fit-content;
-    margin: 20px;
-}
-
 #parent-box {
     background-color: rgb(143, 0, 33);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    vertical-align: middle;
     box-shadow: 1px 2px 9px 9px;
-    margin: 10px;
+    margin:auto;
+
 }
 
 .child-box a {
     color: rgb(255, 255, 255);
-    margin-right: 30px;
-    padding-left: 10px;
-    box-shadow: 2px 2px 1px 2px;
-    border-radius: 2px;
+    margin: 30px;
+    box-shadow: 2px 2px 6px 2px;
+    font-size: x-large;
 
 }
 
 .MENU {
     background-color: rgb(242, 237, 237);
     box-shadow: 2px 3px 9px 5px;
-    margin: 20px;
-    padding: 10px;
+     margin: 20px;
+    justify-content: space-between;
 }
 
 .FOOD {
@@ -70,9 +63,10 @@ body {
 
 .main {
     display: flex;
-    flex-wrap: wrap;
-    padding: auto;
+    flex-wrap:wrap;
     margin: 10px;
+    justify-content: space-between;
+
 
 
 
@@ -83,9 +77,10 @@ body {
     background: linear-gradient(90deg, rgb(216, 4, 96) 16%, rgb(1, 86, 70) 59%, rgb(187, 6, 232) 90%);
     box-shadow: 3px 0px 7px 4px rgb(255, 255, 37);
     font-size: xx-large;
+    transition: 1s;
 
 }
 
 .Owner:hover {
-    transform: scale(4);
+    transform: rotate(360deg);
 }
